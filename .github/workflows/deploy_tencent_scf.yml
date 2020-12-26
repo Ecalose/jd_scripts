@@ -1,6 +1,8 @@
 name: 部署到腾讯云函数
 
 on:
+  push:
+    branches: master
   workflow_dispatch:
 
 jobs:
